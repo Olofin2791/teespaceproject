@@ -1,0 +1,88 @@
+.teespace {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom:-5rem;
+}
+
+.space1 {
+  margin: 35px;
+  width: 250x;
+  height: 289px;
+  top: 5px;
+  left: 288px;
+}
+
+.space1 p {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7e7e7e;
+}
+
+.space1 p h3 {
+  color: black;
+}
+
+.space2 {
+  margin: 10px;
+  width: 60%;
+
+  top: 57px;
+
+}
+
+.space2 ol {
+  list-style-type: none;
+}
+
+.space2 ol h3 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+}
+.space2 ol li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #7e7e7e;
+}
+
+.btn1 {
+  width: 60%;
+  padding: 0.6px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.btn2 {
+  width: 60%;
+  padding:0.6px;
+  border-radius: 12px;
+  background-color: #2ebb77;
+  text-align: center;
+  top: 100px;
+  color: white;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .teespace {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5px;
+  }
+
+  .space1,
+  .space2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+  }
+}

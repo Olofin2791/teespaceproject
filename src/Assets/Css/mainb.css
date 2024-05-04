@@ -1,0 +1,57 @@
+.Mainb {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+.Mainb-text {
+  text-align: center;
+  display: flex;
+}
+
+.cardbox {
+  justify-content: space-between;
+  margin: 5rem;
+  margin-top: 5rem;
+}
+
+.cardbox h3 {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cardbox p {
+  font-size: small;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .Mainb {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 3rem;
+  }
+
+  .cardbox {
+    margin-left: -2rem;
+  }
+
+  .cardbox h3 {
+    font-size: 12px;
+  }
+
+  .cardbox p {
+    font-size: 12px;
+    text-align: justify;
+    margin-top:-0.5rem;
+  }
+
+  .cardbox img {
+    width: 40px;
+    height: 30px;
+  }
+}
