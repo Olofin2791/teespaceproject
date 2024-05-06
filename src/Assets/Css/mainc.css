@@ -58,34 +58,59 @@
   margin-right: 15rem;
 }
 
+/* Base styles */
+/* ... (your existing styles) ... */
+
+/* Media query for smaller screens (e.g., mobile devices) */
 @media only screen and (max-width: 768px) {
   .Mainc {
     justify-content: space-between;
-    margin-top: -0.6rem;
+    margin-top: -2rem;
     display: block;
+    margin: 0 5;
   }
 
   .text {
-    text-align: center;
-    margin-right: 0;
+    margin: 0 2rem;
   }
 
+  .text h1 {
+    font-size: 18px;
+    margin-left: 2rem;
+  }
+
+  .text h6 {
+    margin-left: 5rem;
+  }
   .text h5 {
-    font-size: 16px;
+    font-size: 15px;
+    margin-left: 4rem;
+    margin-top: 5px;
   }
 
   .text p {
     color: #555;
     display: block;
+    font-size: 12px;
+    margin-right: 1.5px;
+    text-align: center;
   }
 
   .session2,
   .session3 {
     display: block;
-    margin-right: 10rem;
+    margin-right: -6rem;
   }
+
   .fontlibrary p {
-    margin-right: 8rem;
-    text-wrap: wrap;
+    margin-left: -8rem;
+    white-space: normal; /* Correct property name for wrapping text */
+    font-size: 12px;
+    text-align: center;
+  }
+  .fontlibrary img {
+    width: 5%;
+    display: inline-block;
+    margin-top: 10px;
   }
 }

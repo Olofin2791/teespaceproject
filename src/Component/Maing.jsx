@@ -4,61 +4,65 @@ import "../Assets/Css/maing.css";
 const Maing = () => {
   return (
     <>
-      <div className="teespace">
-        <div className="space1">
-          <img
-            src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713913810/div.elementor-widget-container_2_l85npd.png"
-            alt=""
-          />
-          <p>
-            hellp@teespace.io
-            <h3>+02 036 038 3996</h3>
-            3665 Paseo Place, Suite 0960 <br />
-            San Diego
-          </p>
-        </div>
+      <footer>
+        {" "}
+        <div className="teespace">
+          <div className="space1">
+            <img
+              src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713913810/div.elementor-widget-container_2_l85npd.png"
+              alt=""
+            />
+            <p>
+              hell0@teespace.io
+              <h3>+02 036 038 3996</h3>
+              3665 Paseo Place, Suite 0960 San Diego
+            </p>
+          </div>
+          <div className="info">
+            <div className="space2">
+              <h3>Information</h3>
+              <div>
+                <a href="/">About Us</a>
+                <a href="/">Our Blog</a>
+                <a href="/">Start a Return</a>
+                <a href="/">Contact Us</a>
+                <a href="/">Shipping FAQ</a>
+              </div>
+            </div>
 
-        <div className="space2">
-          <ol>
-            <h3>Information</h3>
-            <li>About us </li>
-            <li>Our Blog </li>
-            <li>Start a Return </li>
-            <li>Contact Us </li>
-            <li>Shipping FAQ</li>
-          </ol>
-        </div>
-        <div className="space2">
-          <ol>
-            <h3>Services</h3>
-            <li>Printing Services </li>
-            <li>Digital Scanning </li>
-            <li>Design Services </li>
-            <li>Copying Services </li>
-            <li>Print on Demand </li>
-          </ol>
-        </div>
+            <div className="space2">
+              <h3>Services</h3>
+              <div>
+                <a href="/">Printing Services</a>
+                <a href="/">Digital Scanning</a>
+                <a href="/"> Design Services</a>
+                <a href="/">Copying Services</a>
+                <a href="/">Print on Demand</a>
+              </div>
+            </div>
 
-        <div className="space2">
-          <ol>
-            <h3>Useful Links</h3>
-            <li>My Account </li>
-            <li>Print Provider </li>
-            <li>Become a Partner </li>
-            <li>Custom Product</li>
-            <li>Make your own shirt </li>
-          </ol>
-        </div>
+            <div className="space2">
+              <h3>Useful Links</h3>
+              <div>
+                <a href="/">My Account</a>
+                <a href="/">Print Provider</a>
+                <a href="/">Become a Partner</a>
+                <a href="/">Custom Product</a>
+                <a href="/">Make your own shirt</a>
+              </div>
+            </div>
 
-        <div className="space2">
-          <ol>
-            <h3>Newsletter</h3>
-            <li>Subscribe to our newsletter </li>
-            <li className="btn1">Your Email Address</li>
-            <li className="btn2">Subscribe</li>
-          </ol>
+            <div className="space2">
+              <h3>Newsletter</h3>
+              <div>
+                <p>Subscribe to our newsletter</p>
+                <p className="btn1">Your Email Address</p>
+                <p className="btn2">Subscribe</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 };

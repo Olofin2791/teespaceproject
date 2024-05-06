@@ -5,7 +5,7 @@ const Maind = () => {
     <>
       <div className="maind">
         <h6> How it works</h6>
-        <h1>T-Shirt printing made easy.</h1>
+        <h2>T-Shirt printing made easy.</h2>
       </div>
 
       <div className="mainwork">
@@ -16,8 +16,8 @@ const Maind = () => {
           />
           <h4>Add your shirt design</h4>
           <p>
-         Lorem ipsum det, consec tetur adipiscing elit duis nec <br/>
-          fringi det, consec tetur adipiscing eli
+            Lorem ipsum det, consec tetur adipiscing elit duis nec fringi det,
+            consec tetur adipiscing eli
           </p>
         </div>
         <div className="cardarrow1">
@@ -33,9 +33,8 @@ const Maind = () => {
           />
           <h4>Custom artworks & Design</h4>
           <p>
-Lorem ipsum det, consec tetur adipiscing elit duis nec
-<br/>
-          fringi det, consec tetur adipiscing eli
+            Lorem ipsum det, consec tetur adipiscing elit duis nec fringi det,
+            consec tetur adipiscing eli
           </p>
         </div>
         <div className="cardarrow2">
@@ -51,8 +50,8 @@ Lorem ipsum det, consec tetur adipiscing elit duis nec
           />
           <h4>Enjoy your Product</h4>
           <p>
-Lorem ipsum det, consec tetur adipiscing elit duis nec <br/>
-          fringi det, consec tetur adipiscing eli
+            Lorem ipsum det, consec tetur adipiscing elit duis nec fringi det,
+            consec tetur adipiscing eli
           </p>
         </div>
       </div>

@@ -60,13 +60,15 @@
   .mobile-menu {
     display: block;
     width: 100%;
+    padding-top: 1rem;
   }
 
   nav a {
     display: none;
   }
   .NavIcons {
-    width: 100%;
+    width: 70%;
+    padding-top: 1rem;
   }
   .menu-items a {
     margin: 0 15px;
@@ -90,6 +92,7 @@
 
   .Navlink-items img {
     margin-right: 10px;
+    padding-top: 1rem;
   }
 
   .Navbutton button {

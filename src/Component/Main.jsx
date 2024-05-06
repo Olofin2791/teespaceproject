@@ -22,44 +22,43 @@ const Main = () => {
           <h5>
             T-shirt printing for Everyone get headstart with free design <br />
             template you can customize in few clicks.
-            
           </h5>
-          {/* <div className="text">
-          <h4>
-            <img
-              src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
-              height="10px"
-              alt=""
-            />
-            Top quality printing using the latest technology
-          </h4>
-          <h4>
-            <img
-              src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
-              height="10px"
-              alt=""
-            />
-            Max and Match colors, sizes and designs
-          </h4>
-
-          <h4>
-            <img
-              src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
-              height="10px"
-              alt=""
-            />
-            Fast and fire standing stripping
-          </h4>
-
-          <h4>
-            <img
-              src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
-              height="10px"
-              alt=""
-            />
-            Customers happiness guarentee
-          </h4>
-            </div> */}
+          <div className="services">
+            <p>
+              <img
+                src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
+                alt=""
+              />
+              Top quality printing using the latest technology
+            </p>
+          </div>
+          <div className="services2">
+            <p>
+              <img
+                src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
+                alt=""
+              />
+              Max and Match colors, sizes and designs
+            </p>
+          </div>
+          <div className="services3">
+            <p>
+              <img
+                src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
+                alt=""
+              />
+              Fast and fire standing stripping
+            </p>
+          </div>
+          <div className="services4">
+            <p>
+              <img
+                src="https://res.cloudinary.com/dang2kjfr/image/upload/v1713570812/Icon_byyyf9.png"
+                alt=""
+              />
+              Customers happiness guarentee
+            </p>
+          </div>
         </div>
       </div>
     </>

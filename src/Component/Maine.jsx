@@ -13,7 +13,7 @@ const Maine = () => {
               questions
             </h2>
             <p>
-              You've got the ideas, we've got the tools - design your <br />{" "}
+              You've got the ideas, we've got the tools - design your 
               custom clothing with our free design assests
             </p>
 
@@ -30,20 +30,17 @@ const Maine = () => {
           <div className="accordion">
             <div className="accordion1">
               <h2>How does product customization work?</h2>
-            </div>
-            <div className="accordiontext">
               <p>
                 To make a T-shirt design, your first need to install specific
                 graphic design software. Once you’ve done that, start your
                 creation your final design is at least 220 PPI so it won’t be
-                pixelated when printed…
-                <p>
-                  To design your own T-shirt, you can upload your design to the
-                  front of your tee and add custom elements like text. For some
-                  of our T-shirts, reverse side printing is also available.
-                </p>
+                pixelated when printed… To design your own T-shirt, you can
+                upload your design to the front of your tee and add custom
+                elements like text. For some of our T-shirts, reverse side
+                printing is also available.
               </p>
             </div>
+
             <div className="accordion2">
               <h2>What product can U customize?</h2>
             </div>

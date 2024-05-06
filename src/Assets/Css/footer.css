@@ -37,9 +37,14 @@
 
   .copywrite h6 {
     font-weight: 100;
-    font-size: 16px;
-    line-height: 10px;
+    font-size: 14px;
     color: #7e7e7e;
+    margin-bottom: 0.2rem;
+  }
+
+  .copywrite img {
+    width: 80%;
+    margin-top: 0.2rem;
   }
 
   .Socialicon a {
