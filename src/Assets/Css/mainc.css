@@ -92,18 +92,18 @@
     color: #555;
     display: block;
     font-size: 12px;
-    margin-right: 1.5px;
+    /* margin-right: 1.5px; */
     text-align: center;
   }
 
   .session2,
   .session3 {
     display: block;
-    margin-right: -6rem;
+    justify-content: center;
   }
 
   .fontlibrary p {
-    margin-left: -8rem;
+    /* margin-left: -8rem; */
     white-space: normal; /* Correct property name for wrapping text */
     font-size: 12px;
     text-align: center;

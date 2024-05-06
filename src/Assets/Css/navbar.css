@@ -7,8 +7,7 @@
 
 @media only screen and (max-width: 768px) {
   .Nav-heading {
-
-    padding: 5px;
-    font-size: 14px; 
+    /* padding: 5px; */
+    font-size: 14px;
   }
 }

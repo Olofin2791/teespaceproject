@@ -80,7 +80,7 @@
 /* Media query for smaller screens (mobile devices) */
 @media screen and (max-width: 768px) {
   .body {
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
     height: 3%;
   }
   .faq {
@@ -95,9 +95,6 @@
     line-height: 1.5;
   }
 
-  .faq h5 {
-    margin-left: 3.5rem;
-  }
   .accordion1 h2,
   .accordion2 h2 {
     display: block;
@@ -114,7 +111,7 @@
     font-size: 15px;
     margin-left: -10rem;
     text-align: justify;
-    width: 45vh;
+    width: 44vh;
     margin-top: 0.5rem;
     line-height: 2;
   }

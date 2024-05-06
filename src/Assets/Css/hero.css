@@ -9,9 +9,9 @@
 }
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-  .herocard {
+  /* .herocard {
     padding: 20px;
-  }
+  } */
 
   .herotitle {
     font-size: 18px;
